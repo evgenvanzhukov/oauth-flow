@@ -11,6 +11,11 @@
 		67C0E6122977C4BA0017125E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67C0E6112977C4BA0017125E /* SceneDelegate.swift */; };
 		67C0E6192977C4BB0017125E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 67C0E6182977C4BB0017125E /* Assets.xcassets */; };
 		67C0E61C2977C4BB0017125E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 67C0E61A2977C4BB0017125E /* LaunchScreen.storyboard */; };
+		67C0E6282977CA2B0017125E /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67C0E6272977CA2B0017125E /* LoginViewController.swift */; };
+		67C0E62C2977CAE30017125E /* OAuthService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67C0E62B2977CAE30017125E /* OAuthService.swift */; };
+		67C0E62F2977CC030017125E /* OAuthClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67C0E62E2977CC030017125E /* OAuthClient.swift */; };
+		67C0E6322977CC260017125E /* AppDependencyContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67C0E6312977CC260017125E /* AppDependencyContainer.swift */; };
+		67C0E6352977CD660017125E /* DeepLink.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67C0E6342977CD660017125E /* DeepLink.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +25,11 @@
 		67C0E6182977C4BB0017125E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		67C0E61B2977C4BB0017125E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		67C0E61D2977C4BB0017125E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		67C0E6272977CA2B0017125E /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		67C0E62B2977CAE30017125E /* OAuthService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OAuthService.swift; sourceTree = "<group>"; };
+		67C0E62E2977CC030017125E /* OAuthClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OAuthClient.swift; sourceTree = "<group>"; };
+		67C0E6312977CC260017125E /* AppDependencyContainer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDependencyContainer.swift; sourceTree = "<group>"; };
+		67C0E6342977CD660017125E /* DeepLink.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeepLink.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,13 +62,26 @@
 		67C0E60E2977C4BA0017125E /* oauth flow */ = {
 			isa = PBXGroup;
 			children = (
+				67C0E6262977CA160017125E /* ViewControllers */,
 				67C0E60F2977C4BA0017125E /* AppDelegate.swift */,
 				67C0E6112977C4BA0017125E /* SceneDelegate.swift */,
 				67C0E6182977C4BB0017125E /* Assets.xcassets */,
 				67C0E61A2977C4BB0017125E /* LaunchScreen.storyboard */,
 				67C0E61D2977C4BB0017125E /* Info.plist */,
+				67C0E62B2977CAE30017125E /* OAuthService.swift */,
+				67C0E62E2977CC030017125E /* OAuthClient.swift */,
+				67C0E6312977CC260017125E /* AppDependencyContainer.swift */,
+				67C0E6342977CD660017125E /* DeepLink.swift */,
 			);
 			path = "oauth flow";
+			sourceTree = "<group>";
+		};
+		67C0E6262977CA160017125E /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				67C0E6272977CA2B0017125E /* LoginViewController.swift */,
+			);
+			path = ViewControllers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -130,8 +153,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				67C0E6282977CA2B0017125E /* LoginViewController.swift in Sources */,
+				67C0E6352977CD660017125E /* DeepLink.swift in Sources */,
 				67C0E6102977C4BA0017125E /* AppDelegate.swift in Sources */,
 				67C0E6122977C4BA0017125E /* SceneDelegate.swift in Sources */,
+				67C0E62C2977CAE30017125E /* OAuthService.swift in Sources */,
+				67C0E6322977CC260017125E /* AppDependencyContainer.swift in Sources */,
+				67C0E62F2977CC030017125E /* OAuthClient.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
