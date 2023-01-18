@@ -9,8 +9,6 @@
 /* Begin PBXBuildFile section */
 		67C0E6102977C4BA0017125E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67C0E60F2977C4BA0017125E /* AppDelegate.swift */; };
 		67C0E6122977C4BA0017125E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67C0E6112977C4BA0017125E /* SceneDelegate.swift */; };
-		67C0E6142977C4BA0017125E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67C0E6132977C4BA0017125E /* ViewController.swift */; };
-		67C0E6172977C4BA0017125E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 67C0E6152977C4BA0017125E /* Main.storyboard */; };
 		67C0E6192977C4BB0017125E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 67C0E6182977C4BB0017125E /* Assets.xcassets */; };
 		67C0E61C2977C4BB0017125E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 67C0E61A2977C4BB0017125E /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
@@ -19,8 +17,6 @@
 		67C0E60C2977C4BA0017125E /* oauth flow.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "oauth flow.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		67C0E60F2977C4BA0017125E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		67C0E6112977C4BA0017125E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		67C0E6132977C4BA0017125E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		67C0E6162977C4BA0017125E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		67C0E6182977C4BB0017125E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		67C0E61B2977C4BB0017125E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		67C0E61D2977C4BB0017125E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -58,8 +54,6 @@
 			children = (
 				67C0E60F2977C4BA0017125E /* AppDelegate.swift */,
 				67C0E6112977C4BA0017125E /* SceneDelegate.swift */,
-				67C0E6132977C4BA0017125E /* ViewController.swift */,
-				67C0E6152977C4BA0017125E /* Main.storyboard */,
 				67C0E6182977C4BB0017125E /* Assets.xcassets */,
 				67C0E61A2977C4BB0017125E /* LaunchScreen.storyboard */,
 				67C0E61D2977C4BB0017125E /* Info.plist */,
@@ -126,7 +120,6 @@
 			files = (
 				67C0E61C2977C4BB0017125E /* LaunchScreen.storyboard in Resources */,
 				67C0E6192977C4BB0017125E /* Assets.xcassets in Resources */,
-				67C0E6172977C4BA0017125E /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -137,7 +130,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				67C0E6142977C4BA0017125E /* ViewController.swift in Sources */,
 				67C0E6102977C4BA0017125E /* AppDelegate.swift in Sources */,
 				67C0E6122977C4BA0017125E /* SceneDelegate.swift in Sources */,
 			);
@@ -146,14 +138,6 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		67C0E6152977C4BA0017125E /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				67C0E6162977C4BA0017125E /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		67C0E61A2977C4BB0017125E /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -295,7 +279,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "Zhu.oauth-flow";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -313,7 +297,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "Zhu.oauth-flow";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
