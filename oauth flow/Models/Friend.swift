@@ -15,14 +15,6 @@ public struct Friend : Codable  {
     var sex: Int
     var status: String?
 
-    //var bdate: String?
-    //var first_name: String
-    //var track_code: String
-    //var last_name: String
-    //var can_access_closed: Bool
-    //var is_closed: Bool
-    //var photo_50: String?
-
     
     private enum CodingKeys: String, CodingKey {
         case name = "first_name"

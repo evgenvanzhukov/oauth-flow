@@ -9,20 +9,12 @@ import Foundation
 
 protocol OAuthServiceProtocol {
     func getLoginUrl() -> URL?
-    func exchangeCodeForToken(url: URL)
+
 }
 
 class OAuthService: OAuthServiceProtocol {
     
-    func exchangeCodeForToken(url: URL) {
-        client.exchangeCodeForToken(code: "") { (result) in
-            
-        }
-    }
-    
-    
     private let client: OAuthClientProtocol
-    
     
     init(oauthClient: OAuthClientProtocol) {
         client = oauthClient
@@ -30,7 +22,6 @@ class OAuthService: OAuthServiceProtocol {
     
     
     func getLoginUrl() -> URL? {
-        //где формировать строку ?? в клиенте или сервисе
         return client.getAuthPageUrl()
     }
 

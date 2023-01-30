@@ -52,7 +52,7 @@ class FriendsViewController: UITableViewController {
         cell.textLabel?.text = "\(friend.name) \(friend.surName ?? "")"
         
         cell.detailTextLabel?.text = "\(friend.status ?? "")"
-        let sex = friend.sex == 1 ? "Жен" : "Муж"
+        
         loadImage(from: friend.photo) {[weak self] (img) in
             cell.accessoryView = UIImageView(image: img)
         }

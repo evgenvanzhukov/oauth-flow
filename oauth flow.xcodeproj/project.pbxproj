@@ -18,7 +18,6 @@
 		67C0E62C2977CAE30017125E /* OAuthService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67C0E62B2977CAE30017125E /* OAuthService.swift */; };
 		67C0E62F2977CC030017125E /* OAuthClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67C0E62E2977CC030017125E /* OAuthClient.swift */; };
 		67C0E6322977CC260017125E /* AppDependencyContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67C0E6312977CC260017125E /* AppDependencyContainer.swift */; };
-		67C0E6352977CD660017125E /* DeepLink.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67C0E6342977CD660017125E /* DeepLink.swift */; };
 		67D0C8E9297BDAC800BDDFE4 /* FriendsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67D0C8E8297BDAC800BDDFE4 /* FriendsViewController.swift */; };
 		67D0C8EE297BE3E900BDDFE4 /* Response.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67D0C8ED297BE3E900BDDFE4 /* Response.swift */; };
 /* End PBXBuildFile section */
@@ -37,7 +36,6 @@
 		67C0E62B2977CAE30017125E /* OAuthService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OAuthService.swift; sourceTree = "<group>"; };
 		67C0E62E2977CC030017125E /* OAuthClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OAuthClient.swift; sourceTree = "<group>"; };
 		67C0E6312977CC260017125E /* AppDependencyContainer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDependencyContainer.swift; sourceTree = "<group>"; };
-		67C0E6342977CD660017125E /* DeepLink.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeepLink.swift; sourceTree = "<group>"; };
 		67D0C8E8297BDAC800BDDFE4 /* FriendsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FriendsViewController.swift; sourceTree = "<group>"; };
 		67D0C8ED297BE3E900BDDFE4 /* Response.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Response.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -91,7 +89,6 @@
 				67C0E61A2977C4BB0017125E /* LaunchScreen.storyboard */,
 				67C0E61D2977C4BB0017125E /* Info.plist */,
 				67C0E6312977CC260017125E /* AppDependencyContainer.swift */,
-				67C0E6342977CD660017125E /* DeepLink.swift */,
 				67D0C8EC297BE3C200BDDFE4 /* Models */,
 			);
 			path = "oauth flow";
@@ -185,7 +182,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				67C0E6282977CA2B0017125E /* LoginViewController.swift in Sources */,
-				67C0E6352977CD660017125E /* DeepLink.swift in Sources */,
 				67531C6B297AD556005C568B /* ApiClient.swift in Sources */,
 				67C0E6102977C4BA0017125E /* AppDelegate.swift in Sources */,
 				67D0C8EE297BE3E900BDDFE4 /* Response.swift in Sources */,

@@ -36,16 +36,8 @@ public class ApiClient {
         
         urlSession.dataTask(with: request) { (data, response, err) in
             if data == nil || err != nil {
-
                 return
             }
-            do {
-                _ = try self.decoder.decode(T.self, from: data!)
-            }
-            catch {
-                print(error.localizedDescription)
-            }
-
             
             guard let result: T =
                     try? self.decoder.decode(T.self, from: data!)

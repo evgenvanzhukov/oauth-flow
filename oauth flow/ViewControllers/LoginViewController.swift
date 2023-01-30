@@ -47,7 +47,7 @@ class LoginViewController: UIViewController, WKUIDelegate, WKNavigationDelegate 
         webview.navigationDelegate = self
         
         webview.load(URLRequest(url: url))
-        print(webview)
+        
         view.addSubview(webview)
     }
     

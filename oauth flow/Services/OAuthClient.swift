@@ -9,8 +9,7 @@ import Foundation
 
 protocol OAuthClientProtocol {
     func getAuthPageUrl() -> URL?
-    
-    func exchangeCodeForToken(code: String, completion: @escaping (Result<TokenBag, Error>) -> Void)
+
 }
 
 struct TokenBag {
@@ -18,10 +17,6 @@ struct TokenBag {
 }
 
 class OAuthClient: OAuthClientProtocol {
-    
-    func exchangeCodeForToken(code: String, completion: @escaping (Result<TokenBag, Error>) -> Void) {
-        
-    }
     
     func getAuthPageUrl() -> URL? {
         
@@ -33,6 +28,4 @@ class OAuthClient: OAuthClientProtocol {
         
         return URL(string: urlString)
     }
-    
-    
 }
